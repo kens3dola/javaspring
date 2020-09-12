@@ -1,0 +1,174 @@
+
+*{
+  box-sizing: border-box;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+.body {
+  box-shadow: 0 0 3px 1px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.header {
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  margin: 50px 0px;
+}
+table{
+  width: 100%;
+}
+table td{
+  padding: 40px 20px;
+}
+tbody{
+  width: 100%;
+}
+.cardd{
+  margin: 10px;
+}
+.flex1{
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+.flex2{
+  width: 80%;
+  text-align: center;
+  font-size: 25px;
+}
+.flex3{
+  width: 10%;
+  
+  text-align: center;
+}
+#view{
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.material{
+  box-shadow: 0 0 3px 1px;
+  border-radius: 5px;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.title{
+  margin: 10px 0;
+  font-weight: bolder;
+  font-size: 25px; 
+}
+.button{
+  display: flex;
+  justify-content: space-evenly;
+}
+.r{
+  border: 1px solid grey; 
+  margin-bottom: 10px;
+  border-radius: 5px; 
+  padding: 2px;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=date], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0px solid #ccc;
+  box-shadow: 0 0 2px 0.5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form{
+  width: 100%;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.formcol{
+  width:60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.formcol label{
+  width: 50%;
+  height: 100%;
+}
+.submit {
+  width: 10%;
+  background-color: #007bff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: aquamarine;
+}
+
+.hidden{
+  display:none;
+}
+.announce{
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.anno{
+  box-shadow: 0px 0px 3px 1px black;
+  padding:10px;
+  border-radius: 5px;
+}
+.xx{
+  display: flex;
+  flex-shrink: initial;
+  flex-grow: initial;
+}
+.itemfr{
+  display: flex;
+  justify-content:flex-start;
+  width: 10%;
+  height: 100%;
+}
+.itemfr2{
+  display: flex;
+  justify-content:flex-start;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  white-space: initial;
+  width: 90%;
+  height:auto;
+}
+.profile{
+  width: 50%;
+  margin : auto;
+}
+.profile tr:not(.center) td:nth-child(1){
+  padding-left: 0;
+}
+.submit{
+  width:auto;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

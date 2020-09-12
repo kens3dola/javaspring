@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<decorators defaultdir="/decorators">
+	
+    <decorator name="webuse" page="webuse.jsp">
+       <pattern>/*</pattern>
+    </decorator>
+    
+    <decorator name="admin" page="admin.jsp">
+       <pattern>/admin*</pattern>
+    </decorator>
+	<decorator name="guess" page="guess.jsp">
+		<pattern>/guess</pattern>
+	</decorator>
+	<decorator name="login" page="guess.jsp">
+		<pattern>/login</pattern>
+	</decorator>
+	<decorator name="register" page="admin.jsp">
+		<pattern>/register</pattern>
+	</decorator>
+	<decorator name="deny" page="guess.jsp">
+		<pattern>/deny</pattern>
+	</decorator>
+</decorators>
